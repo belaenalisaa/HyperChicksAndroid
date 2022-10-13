@@ -4,18 +4,185 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".fragment.HomeFragment">
 
-    <LinearLayout
+    <RelativeLayout
         android:padding="10dp"
-        android:background="#FCCA62"
+        android:background="#000000"
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="100">
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo_hyperchicks"/>
 
         <androidx.cardview.widget.CardView
+            android:layout_toLeftOf="@+id/icon_chat"
+            app:cardCornerRadius="17dp"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="8dp"
+            android:layout_centerVertical="true">
 
-    </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_search_24" />
+
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cari Makanan disini"
+                    android:textSize="12sp"
+                    android:textColor="#999999"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/icon_chat"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_chat_24" />
+
+
+    </RelativeLayout>
+
+
+    <!-- scroll. -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vp_slider"
+                android:layout_marginVertical="15dp"
+                android:layout_marginHorizontal="18dp"
+                android:layout_width="370dp"
+                android:layout_height="200dp"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Rekomendasi"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#f87210" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_produk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Promo 10.10 s/d 20rb"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#f87210" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_produkDiskon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Makanan Terlaris"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#f87210" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_produkTerlaris"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </LinearLayout>
+
+
+
+
+
+
+
