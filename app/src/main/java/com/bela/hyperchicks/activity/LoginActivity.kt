@@ -17,7 +17,7 @@ class LoginActivity : AppCompatActivity() {
 
         s = SharedPref(this)
 
-        btnMasuk.setOnClickListener {
+        btn_Masuk.setOnClickListener {
             s.setStatusLogin(true)
     }
 }

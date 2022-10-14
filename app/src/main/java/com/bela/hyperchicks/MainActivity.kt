@@ -10,6 +10,7 @@ import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.bela.hyperchicks.activity.LoginActivity
+import com.bela.hyperchicks.activity.MasukActivity
 import com.bela.hyperchicks.fragment.AboutFragment
 import com.bela.hyperchicks.fragment.AkunFragment
 import com.bela.hyperchicks.fragment.HomeFragment
@@ -70,7 +71,7 @@ class MainActivity : AppCompatActivity() {
                     if (s.getStatusLogin()){
                     callFragment(3,fragmentAkun)
                     } else {
-                        startActivity(Intent(this, LoginActivity::class.java))
+                        startActivity(Intent(this, MasukActivity::class.java))
                     }
                 }
             }

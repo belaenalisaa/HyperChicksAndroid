@@ -14,9 +14,11 @@
         android:theme="@style/Theme.HyperChicks"
         tools:targetApi="31">
         <activity
-            android:name=".activity.LoginMasukActivity"
+            android:name=".BaruActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".activity.MasukActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -26,8 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activity.LoginActivity"></activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity" />
     </application>
 
 </manifest>
