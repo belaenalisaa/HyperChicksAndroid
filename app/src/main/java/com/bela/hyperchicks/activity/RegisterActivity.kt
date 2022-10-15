@@ -1,7 +1,8 @@
 package com.bela.hyperchicks.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.bela.hyperchicks.R
 import com.bela.hyperchicks.app.ApiConfig
 import kotlinx.android.synthetic.main.activity_register.*
@@ -19,6 +20,17 @@ class RegisterActivity : AppCompatActivity() {
             register()
 
         }
+
+        btn_google.setOnClickListener {
+            dataDummy()
+        }
+    }
+
+    fun dataDummy() {
+        edt_nama.setText("Bela")
+        edt_email.setText("bela@gmail.com")
+        edt_phone.setText("018029839021")
+        edt_password.setText("12345678")
     }
 
     fun register(){
@@ -41,13 +53,17 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         ApiConfig.instanceRetrofit.register(edt_nama.text.toString(), edt_email.text.toString(), edt_password.text.toString()).enqueue(object : Callback<ResponseBody>{
-            override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
-                //handel ketika sukses
-            }
-
             override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
                 // handel ketika gagal
+                Toast.makeText(this@RegisterActivity, "Error:"+t.message, Toast.LENGTH_SHORT).show()
             }
+
+            override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+                //handel ketika sukses
+                Toast.makeText(this@RegisterActivity, "Success:", Toast.LENGTH_SHORT).show()
+            }
+
+
 
         })
 
