@@ -19,9 +19,9 @@
 
     <fragment
         android:id="@+id/navigation_about"
-        android:name="com.bela.hyperchicks.fragment.AboutFragment"
+        android:name="com.bela.hyperchicks.fragment.KeranjangFragment"
         android:label="About"
-        tools:layout="@layout/fragment_about" />
+        tools:layout="@layout/fragment_keranjang" />
 
     <fragment
         android:id="@+id/navigation_akun"

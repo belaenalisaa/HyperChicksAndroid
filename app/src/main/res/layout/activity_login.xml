@@ -29,7 +29,7 @@
             android:layout_marginTop="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Silahkan asukkan E-mail yang sudah terdaftar"/>
+            android:text="Silahkan masukkan E-mail yang sudah terdaftar"/>
 
         <LinearLayout
             android:layout_marginTop="20dp"

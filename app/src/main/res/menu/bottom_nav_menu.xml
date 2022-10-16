@@ -14,7 +14,7 @@
     <item
         android:id="@+id/navigation_about"
         android:icon="@drawable/ic_about_black_24"
-        android:title="About" />
+        android:title="Keranjang" />
 
     <item
         android:id="@+id/navigation_akun"
