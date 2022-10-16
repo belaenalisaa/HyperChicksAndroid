@@ -57,12 +57,13 @@
 
         <ImageView
             android:id="@+id/icon_chat"
-            android:layout_marginLeft="10dp"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="6dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="9dp"
             android:src="@drawable/ic_baseline_chat_24" />
 
 

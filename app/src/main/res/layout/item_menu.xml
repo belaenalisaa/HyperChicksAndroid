@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="15dp"
+    android:layout_marginHorizontal="18dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_MenuProduk"
+            app:cardCornerRadius="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/chicken_nugget"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_menuName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLines="2"
+                android:text="Chicken Nugget +Sosis Saouce Mayo"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_menuDeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:ellipsize="marquee"
+                android:textSize="10sp"
+                android:lines="2"
+                android:maxLines="2"
+                android:text="Ayam Sayap/Paha Bawah+Nasi+Saos BBQ"
+                android:textColor="#999999" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_menuHarga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:ellipsize="marquee"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:text="Rp. 25.000"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:layout_marginStart="45dp"
+                    app:cardCornerRadius="10dp"
+                    android:id="@+id/btnBeli"
+                    android:layout_width="75dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/bg_btn_login1"
+                    android:text="Beli"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
