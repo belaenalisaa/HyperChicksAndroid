@@ -1,11 +1,10 @@
 package com.bela.hyperchicks.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.bela.hyperchicks.R
 import com.bela.hyperchicks.helper.SharedPref
-import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_masuk.*
 
 class MasukActivity : AppCompatActivity() {
@@ -24,7 +23,7 @@ class MasukActivity : AppCompatActivity() {
 
     fun mainButton(){
         btnMasuk.setOnClickListener {
-            s.setStatusLogin(true)
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         btnRegister.setOnClickListener {

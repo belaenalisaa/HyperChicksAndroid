@@ -14,6 +14,7 @@
         android:padding="13dp">
 
         <ImageView
+
             android:layout_width="25dp"
             android:layout_height="25dp"
             app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24" />
@@ -35,6 +36,9 @@
         android:orientation="vertical"
         android:paddingHorizontal="15dp">
 
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +51,9 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
+
                 <ImageView
+                    android:id="@+id/btn_backRegistrasi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -222,45 +228,45 @@
             android:textColor="@color/white" />
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="25dp"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:orientation="horizontal">
 
             <View
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="1dp"
+                android:layout_weight="1"
                 android:background="#CACACA" />
 
             <TextView
-                android:layout_marginHorizontal="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="atau masuk dengan"/>
+                android:layout_marginHorizontal="10dp"
+                android:text="atau masuk dengan" />
 
             <View
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="1dp"
+                android:layout_weight="1"
                 android:background="#CACACA" />
 
         </LinearLayout>
 
         <RelativeLayout
             android:id="@+id/btn_google"
-            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:background="@drawable/bg_btn_google"
-            android:padding="13dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="13dp">
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                app:srcCompat="@drawable/ic_google"/>
+                app:srcCompat="@drawable/ic_google" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Solusi untuk setiap laparmu.I"
+            android:text="Solusi untuk setiap laparmu."
             android:textSize="18sp"
             android:textColor="#999999"
             android:gravity="center"/>
@@ -56,7 +56,7 @@
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_btn_login2"
-            android:textColor="#FCCA62"
+            android:textColor="#FFAD21"
             android:text="DAFTAR"/>
 
 

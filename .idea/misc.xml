@@ -5,7 +5,16 @@
       <map>
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/bg_btn_login1.xml" value="0.1895" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/bg_btn_login2.xml" value="0.1895" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_business_24.xml" value="0.1615" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_edit_24.xml" value="0.121" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_favorite_24.xml" value="0.1615" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_help_outline_24.xml" value="0.1615" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_history_24.xml" value="0.1615" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_map_24.xml" value="0.1615" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_notifications_active_24.xml" value="0.1615" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_baseline_shopping_cart_24_orange.xml" value="0.1615" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable-v24/ic_lock_oren_24dp.xml" value="0.1615" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable/bg_btn_google.xml" value="0.1315" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable/ic_account_circle_black_24dp.xml" value="0.1315" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
@@ -16,7 +25,8 @@
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable/ic_menu_black_24.xml" value="0.201" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.201" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/drawable/ic_phone_android_black_24dp.xml" value="0.1315" />
-        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_login.xml" value="0.10526315789473684" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_baru.xml" value="0.25" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_login_daftar.xml" value="0.176" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_login_masuk.xml" value="0.24818840579710144" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -24,9 +34,9 @@
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_masuk.xml" value="0.25" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_about.xml" value="0.25" />
-        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_akun.xml" value="0.11574074074074074" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_akun.xml" value="0.2" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
-        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_home.xml" value="0.12" />
+        <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_menu.xml" value="0.25" />
         <entry key="..\:/RECORD OBS/PROGRAM PIRANTI BERGERAK LANJUTAN/TUGAS/HyperChicksAndroid/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />

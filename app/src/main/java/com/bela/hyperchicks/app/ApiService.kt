@@ -2,11 +2,11 @@ package com.bela.hyperchicks.app
 
 
 
-import okhttp3.ResponseBody
+import com.bela.hyperchicks.model.ResponModel
 import retrofit2.Call
 import retrofit2.http.Field
-import retrofit2.http.POST
 import retrofit2.http.FormUrlEncoded
+import retrofit2.http.POST
 
 
 interface ApiService {
@@ -16,18 +16,18 @@ interface ApiService {
     fun register(
         @Field("name") name :String,
         @Field("email") email :String,
+        @Field("phone") nomortlp :String,
         @Field("password") password :String
-    ): Call<ResponseBody>
+    ): Call<ResponModel>
 
 
 
-
+    @FormUrlEncoded
     @POST("login")
     fun login(
-        @Field("name") name :String,
         @Field("email") email :String,
         @Field("password") password :String
-    ): Call<ResponseBody>
+    ): Call<ResponModel>
 
 
 }
